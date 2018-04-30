@@ -186,7 +186,7 @@ nav a:focus {
 /* Poll */
 
 .poll{
-	background-image: url(paperBK.jpg);
+	background-image: url(PaperBK.jpg);
 	background-size: cover;
 	background-position: center;
 	padding: 5em 0;
@@ -230,7 +230,7 @@ nav a:focus {
 }
 .argument{
 	height: 55em;
-	background-image: url(objection.png);
+	background-image: url(Objection.png);
 	background-size: cover;
 	background-position: left;
 }
@@ -263,7 +263,7 @@ nav a:focus {
 
 /*Conclusion*/
 .Conclusion{
-	background-image: url(futurama.jpg);
+	background-image: url(Futurama.jpg);
 	background-size: cover;
 	background-position: center;
 	padding: 10em;
