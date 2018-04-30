@@ -1,0 +1,332 @@
+*{
+	box-sizing: border-box;
+}
+/* default */
+body{
+	margin: 0;
+	font-family: "Times New Roman", Times, serif;
+	text-align: left;
+}
+
+img{
+	max-width:100%;
+	height: auto;
+}
+
+h1{
+	font-size:3em;
+	text-align: center;
+}
+
+figcaption{
+	text-align: center;
+}
+
+h2{
+	text-align: center;
+}
+.container{
+	width: 95%;
+	margin: 0 auto;
+}
+.row:after{
+	content:"";
+	display: table;
+	clear:both;
+}
+
+/* typography */
+.title{
+	font-size: 2.5rem;
+	margin-bottom: 1.5rem;
+}
+
+@media (min-width: 50rem){
+	.title{
+		font-size: 3em;
+	}
+}
+
+/* header */
+header{
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin:1em;
+}
+
+nav ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	overflow:hidden;
+	background-color: #333;
+	opacity: .5;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%
+}
+
+nav li{
+	float: right;
+}
+
+nav a{
+	display: block;
+	font-weight: 900;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: .8em;
+	padding: 14px 18px;
+	background: grey;
+	color: white;
+}
+
+nav a:hover,
+nav a:focus {
+	color: #ddd;
+}
+
+@media (min-width:60rem){
+	nav{
+	float: right
+	}
+/* home-heading */
+
+.home-heading{
+	background-image: url(EH1.jpg);
+	background-size: cover;
+	background-position: center;
+	padding: 10em 0;
+	color:#FFF;
+}
+
+.container{
+	font-size:4em;
+}
+
+@media (min-width: 60rem){
+	.home-heading{
+		height: 100vh;
+		padding-top: 35vh;
+	}
+}
+
+/*home-introduction*/
+.introduction{
+	font-size: 1.5em;
+	width: `25em;
+	height: 34em;
+	margin: .5em;
+	border: .3em solid;
+	border-color: black
+}
+.intro-head{
+	font-size: 1.7em;
+	text-align: center;
+}
+.hi{
+	text-align: left;
+	text-indent: 3em;
+}
+.hats{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*CFAA*/
+
+.CFAA{
+	font-size: 1.5em;
+	left: 2em;
+}
+
+/* Recent News*/
+
+.recent{
+	height: 30em;
+}
+.column5{
+	text-align: center;
+	float: left;
+	width: 20%;
+}
+.headline{
+	margin: 1em;
+	border: .5em solid #ccc;
+}
+.headline:hover{
+	border: .5em solid #777;
+}
+
+/* Interview */
+.interview{
+	font-size: 1.5em;
+	border-radius: 2em;
+	background-color: gray;
+}
+.column2-1{
+	float:left;
+	text-align: center;
+	width:33%
+}
+.column2-2{
+	float:left;
+	text-align: center;
+	width:66%
+}
+
+@media screen and (max-width: 600px){
+	.column2{
+		width: 100%;
+}}
+
+/* Poll */
+
+.poll{
+	background-image: url(paperBK.jpg);
+	background-size: cover;
+	background-position: center;
+	padding: 5em 0;
+}
+
+.column2-3{
+	float:left;
+	text-align: center;
+	width:66%;
+}
+.column2-4{
+	float:left;
+	text-align: center;
+	width:33%;
+}
+.rightpoll{
+	font-size: 2em;
+}
+.pollans{
+	height: 30em;
+	text-align: left;
+	font-size: 1.5em;
+	overflow: scroll;
+}
+.analysis2{
+	font-size: 1.5em;
+	text-align: left;
+	left: 0em;
+	right: 0em;
+}
+@media screen and (max-width: 600px){
+	.column2{
+		width: 100%;
+}}
+
+/*argument*/
+.odd{
+	background-color: blue;
+	color: white;
+	opacity: .8;
+}
+.argument{
+	height: 55em;
+	background-image: url(objection.png);
+	background-size: cover;
+	background-position: left;
+}
+.arg{
+	width: 23em;
+	height: 18.5em;
+	border: .3em solid;
+	margin: 7em auto 0 5em;
+	overflow: hidden;
+}
+.replace, .new{
+	width: 15em;
+	height: 19em;
+	margin-top: -1em;
+	text-align: center;
+}
+.replace{
+	font-size: 1.5em;
+	font-weight: bold;
+	line-height: 2em;
+	background: gray;
+}
+.new{
+	line-height: 1.5em;
+	background: linear-gradient(red, yellow);
+}
+.replace:hover{
+	margin-top: -14em;
+}
+
+/*Conclusion*/
+.Conclusion{
+	background-image: url(futurama.jpg);
+	background-size: cover;
+	background-position: center;
+	padding: 10em;
+	color:#FFF;
+}
+.future{
+	text-indent: 3em;
+	font-size: 1.5em;
+	width: 50em;
+	border: .1em solid white;
+	line-height: 1.5em;
+}	
+
+/*About*/
+
+.about{
+	width: `25em;
+	height: 20em;
+	margin: .5em;
+	border: .3em solid;
+	border-color: black;
+	font-size: 1.5em;
+}
+
+/*contact*/
+
+.column3{
+	float:left;
+	text-align: center;
+	width:33.33%
+}
+
+@media screen and (max-width: 600px){
+	.column3{
+		width: 100%;
+}}
+.contact{
+	background-color: grey;
+}
+.fa{
+	padding: 20px;
+	font-size: 2em;
+	height: 4em;
+	width: 4em;
+	text-align: center;
+	text-decoration: none;
+	margin: 5px 2px;
+	border-radius: 50%;
+}
+.fa:hover{
+	opacity: .7;
+}
+.fa-facebook{
+	background: #3B5998;
+	color: white;
+}
+.fa-github{
+	background: &#xf09b;
+	color: white;
+	border: .01em solid;
+	border-color: black;
+}
+.fa-linkedin{
+	background: #007bb5;
+	color: white;
+}
