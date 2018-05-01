@@ -40,7 +40,9 @@ h2{
 	font-size: 2.5rem;
 	margin-bottom: 1.5rem;
 }
-
+.title2{
+	font-size: .2em;
+}
 @media (min-width: 50rem){
 	.title{
 		font-size: 3em;
